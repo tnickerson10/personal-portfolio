@@ -600,6 +600,67 @@ em {
     top: 250px;
 }
 
+form {
+    background-color: rgba(54, 25, 25, .35);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 50%;
+    border: 1px solid coral;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 5px;
+}
+
+#contact-header {
+    text-align: center;
+    color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+input {
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#email {
+    top: 100px;
+}
+
+#first {
+    top: 130px;
+}
+
+#last {
+    top: 160px;
+}
+
+#message {
+   width: 20%;
+}
+
+#sub-btn {
+    font-size: 15px;
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sub-btn:hover {
+    background-color: #c2cc66;
+    color: white;
+    box-shadow: 0 0 10px #c2cc66, 0 0 40px #c2cc66, 0 0 80px #c2cc66;
+    transition-delay: 0.15s;
+    cursor: pointer;
+}
+
 
 @keyframes turn {
     from { transform: rotate3d(0, 0, 0, 0); }
