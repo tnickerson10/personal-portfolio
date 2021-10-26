@@ -208,7 +208,7 @@ a:hover {
 }
 #pro-card-1 {
     position: absolute;
-    width: 300px;
+    width: 560px;
     height: 400px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
@@ -216,7 +216,7 @@ a:hover {
     background-size: cover;
     background-position: center;
     top: 175px;
-    left: 20%;
+    left: 10%;
 }
 
 #pro-card-1 {
@@ -247,17 +247,17 @@ a:hover {
 
 #pro-card-1:hover + #pro-card-slide-1 {
     transition: 1s;
-    left: 41%;
+    left: 45%;
     
 }
 
 #pro-card-slide-1:hover {
-    left: 41%;
+    left: 51%;
 }
 
 #pro-card-slide-1 {
     position: absolute;
-    left: 20%;
+    left: 25%;
     top: 175px;
     width: 300px;
     height: 400px;
@@ -407,7 +407,7 @@ a:hover {
 }
 #hob-line-1 {
     top: 150px;
-    left: 70%;
+    left: 65%;
     position: absolute;
     margin-top: 0px;
     padding-top: 20px;
@@ -419,7 +419,7 @@ a:hover {
 
 #hob-line-2 {
     top: 250px;
-    left: 70%;
+    left: 65%;
     position: absolute;
     margin-top: 0px;
     padding-top: 20px;
@@ -436,7 +436,7 @@ a:hover {
     position: absolute;
     top: 430px;
     height: 150px;
-    left: 70%;
+    left: 65%;
     text-align: left;
     margin-top: 0px;
     padding-top: 20px;
@@ -450,7 +450,7 @@ a:hover {
     position: absolute;
     top: 490px;
     height: 150px;
-    left: 70%;
+    left: 65%;
     text-align: left;
     margin-top: 0px;
     padding-top: 20px;
@@ -571,6 +571,33 @@ em {
     transform: rotateY(180deg);
     transition-delay: .2s;
     z-index: 10;
+}
+
+#contact-container {
+    background-image: linear-gradient(rgba(243, 73, 73, 0.363), rgba(206, 221, 70, 0.337)),url(images/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#contact-line-1, #contact-line-2 {
+    top: 150px;
+    left: 10%;
+    position: absolute;
+    margin-top: 0px;
+    padding-top: 20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    z-index: 100;
+}
+
+#contact-line-2 {
+    top: 250px;
 }
 
 
