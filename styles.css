@@ -208,7 +208,7 @@ a:hover {
 }
 #pro-card-1 {
     position: absolute;
-    width: 460px;
+    width: 24%;
     height: 300px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
@@ -227,7 +227,7 @@ a:hover {
 #pro-card-2 {
     background-image: linear-gradient(rgba(11, 12, 49, 0.25),  rgba(30, 19, 56, 0.189)), url(images/library.jpg);
     position: absolute;
-    width: 460px;
+    width: 24%;
     height: 300px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
@@ -273,7 +273,7 @@ a:hover {
     position: absolute;
     left: 20%;
     top: 175px;
-    width: 460px;
+    width: 24%;
     height: 300px;
     border-radius: 5px;
     
@@ -285,7 +285,7 @@ a:hover {
     position: absolute;
     left: 20%;
     top: 525px;
-    width: 460px;
+    width: 24%;
     height: 300px;
     border-radius: 5px;
     background-color: white;
@@ -335,6 +335,7 @@ a:hover {
     margin-top: 0; 
     overflow: hidden;
     transition: 0.2s;
+    width: 30%;
 }
 
 #live-code:hover, #source-code:hover {
@@ -342,9 +343,7 @@ a:hover {
     cursor: pointer;
 }
 
-#live-code {
-    width: 110px;
-}
+
 
 
 #skills-container {
@@ -496,7 +495,6 @@ a:hover {
     text-align: left;
     margin-top: 0px;
     padding-top: 20px;
-    
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 20px;
     color: white;
@@ -510,7 +508,20 @@ a:hover {
     text-align: left;
     margin-top: 0px;
     padding-top: 20px;
-    
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+#hob-text-3 {
+    position: absolute;
+    top: 580px;
+    height: 150px;
+    left: 65%;
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 20px;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 20px;
     color: white;
@@ -518,7 +529,7 @@ a:hover {
 }
 #hob-card-1, #hob-card-2, #hob-card-3 {
     position: absolute;
-    width: 300px;
+    width: 15%;
     height: 400px;
     background-color: white;
     border-radius: 5px;
@@ -529,7 +540,7 @@ a:hover {
 
 #hob-card-1 {
     top: 100px;
-    left: 40%;
+    left: 38%;
     background-image: linear-gradient(rgba(11, 12, 49, 0.25),  rgba(30, 19, 56, 0.189)), url(images/hike-1.jpg);
     background-size: cover;
     background-position: center;
@@ -587,6 +598,8 @@ em {
 #hob-card-1-back p, #hob-card-2-back p, #hob-card-3-back p {
     text-align: left;
     padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
 }
 
 
@@ -602,7 +615,7 @@ em {
 }
 #hob-card-3 {
     top: 300px;
-    left: 10%;
+    left: 13%;
     background-image: linear-gradient(rgba(11, 12, 49, 0.25),  rgba(30, 19, 56, 0.189)), url(images/tools-1.jpg);
     background-size: cover;
     background-position: center;
