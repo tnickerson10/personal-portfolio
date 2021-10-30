@@ -762,9 +762,13 @@ input {
     top: 180px;
 }
 
-#message {
+textarea {
+    position: absolute;
     font-family: 'Fira Sans Condensed', sans-serif ;
     top: 270px;
+    left: 50%;
+    width: 45%;
+    transform: translate(-50%, -50%);
     height: 100px;
 }
 
