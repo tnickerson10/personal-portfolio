@@ -127,7 +127,7 @@ a:hover {
 #port-container {
     margin-top: 0;
     text-align: center;
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     position: relative;
     background-image: linear-gradient(rgba(243, 73, 73, 0.263), rgba(206, 221, 70, 0.237)), url(images/background-2.jpg);
@@ -163,6 +163,8 @@ a:hover {
 
 #pro-text-1 {
     position: absolute;
+    margin-right: 40px;
+
     top: 420px;
     height: 150px;
     left: 70%;
@@ -177,7 +179,9 @@ a:hover {
 
 #pro-text-2 {
     position: absolute;
-    top: 460px;
+    margin-right: 40px;
+
+    top: 490px;
     height: 150px;
     left: 70%;
     text-align: left;
@@ -239,13 +243,14 @@ a:hover {
 }
 
 #pro-card-slide-1 h1 {
+    font-size: 20px;
     padding-left: 35px;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 
 #pro-card-slide-1 p {
-    font-size: 16px;
+    font-size: 15px;
     padding: 0px 35px;
     text-align: left;
     margin-bottom: 25px;
@@ -293,13 +298,14 @@ a:hover {
 }
 
 #pro-card-slide-2 h1 {
+    font-size: 20px;
     padding-left: 35px;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 
 #pro-card-slide-2 p {
-    font-size: 16px;
+    font-size: 15px;
     padding: 0px 35px;
     text-align: left;
     margin-bottom: 25px;
@@ -489,6 +495,7 @@ a:hover {
 }
 #hob-text-1 {
     position: absolute;
+    margin-right: 40px;
     top: 430px;
     height: 150px;
     left: 65%;
@@ -502,7 +509,8 @@ a:hover {
 }
 #hob-text-2 {
     position: absolute;
-    top: 490px;
+    margin-right: 40px;
+    top: 500px;
     height: 150px;
     left: 65%;
     text-align: left;
@@ -516,6 +524,7 @@ a:hover {
 
 #hob-text-3 {
     position: absolute;
+    margin-right: 40px;
     top: 580px;
     height: 150px;
     left: 65%;
@@ -529,8 +538,8 @@ a:hover {
 }
 #hob-card-1, #hob-card-2, #hob-card-3 {
     position: absolute;
-    width: 15%;
-    height: 400px;
+    width: 20%;
+    height: 50%;
     background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
@@ -652,7 +661,7 @@ em {
 }
 
 #contact-line-1, #contact-line-2 {
-    top: 320px;
+    top: 220px;
     left: 10%;
     position: absolute;
     margin-top: 0px;
@@ -666,7 +675,7 @@ em {
 }
 
 #contact-line-2 {
-    top: 430px;
+    top: 330px;
 }
 
 form {
