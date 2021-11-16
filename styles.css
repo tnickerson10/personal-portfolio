@@ -94,7 +94,7 @@ button {
     width: 100%;
     height: 60px;
     background-color: #a3aa61;
-    opacity: .8;
+    
 }
 
 #nav-bar {
@@ -127,7 +127,7 @@ a:hover {
 #port-container {
     margin-top: 0;
     text-align: center;
-    height: 150vh;
+    height: 200vh;
     width: 100%;
     position: relative;
     background-image: linear-gradient(rgba(243, 73, 73, 0.263), rgba(206, 221, 70, 0.237)), url(images/background-2.jpg);
@@ -218,7 +218,7 @@ a:hover {
     box-shadow: 5px 5px 10px black;
     z-index: 2;
     background-size: cover;
-    background-position: center;
+    background-position:center;
     top: 175px;
     left: 20%;
 }
@@ -229,7 +229,7 @@ a:hover {
 }
 
 #pro-card-2 {
-    background-image: linear-gradient(rgba(11, 12, 49, 0.25),  rgba(30, 19, 56, 0.189)), url(images/library.jpg);
+    background-image: linear-gradient(rgba(11, 12, 49, 0.25),  rgba(30, 19, 56, 0.189)), url(images/grocery2.png);
     position: absolute;
     width: 24%;
     height: 300px;
@@ -242,15 +242,30 @@ a:hover {
     left: 20%;
 }
 
+#pro-card-3 {
+    background-image: linear-gradient(rgba(11, 12, 49, 0.25),  rgba(30, 19, 56, 0.189)), url(images/library.jpg);
+    position: absolute;
+    width: 24%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    z-index: 2;
+    background-size: cover;
+    background-position: center;
+    top: 880px;
+    left: 20%;
+}
 #pro-card-slide-1 h1 {
-    font-size: 20px;
+    color: navy;
+    font-size: 22px;
+    padding-top: 20px;
     padding-left: 35px;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 
 #pro-card-slide-1 p {
-    font-size: 15px;
+    font-size: 13px;
     padding: 0px 35px;
     text-align: left;
     margin-bottom: 25px;
@@ -298,14 +313,16 @@ a:hover {
 }
 
 #pro-card-slide-2 h1 {
-    font-size: 20px;
+    color: navy;
+    font-size: 22px;
+    padding-top: 20px;
     padding-left: 35px;
     text-align: left;
     font-family: 'Open Sans', sans-serif;
 }
 
 #pro-card-slide-2 p {
-    font-size: 15px;
+    font-size: 13px;
     padding: 0px 35px;
     text-align: left;
     margin-bottom: 25px;
@@ -329,8 +346,53 @@ a:hover {
     left: 45%;
 }
 
+#pro-card-slide-3 {
+    position: absolute;
+    left: 20%;
+    top: 880px;
+    width: 24%;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+
+}
+
+#pro-card-slide-3 h1 {
+    color: navy;
+    font-size: 22px;
+    padding-left: 35px;
+    padding-top: 20px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#pro-card-slide-3 p {
+    font-size: 13px;
+    padding: 0px 35px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+#pro-card-3:hover {
+    filter: brightness(.2)
+}
+
+#pro-card-slide-3 {
+    transition: 1s ease-in-out;
+}
+
+#pro-card-3:hover + #pro-card-slide-3 {
+    transition: 1s;
+    left: 45%;
+    
+}
+
+#pro-card-slide-3:hover {
+    left: 45%;
+}
+
 #live-code, #source-code {
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     border: none;
@@ -341,16 +403,13 @@ a:hover {
     margin-top: 0; 
     overflow: hidden;
     transition: 0.2s;
-    width: 30%;
+    width: 35%;
 }
 
 #live-code:hover, #source-code:hover {
     opacity: .85;
     cursor: pointer;
 }
-
-
-
 
 #skills-container {
     margin-top: 0px;
@@ -699,8 +758,8 @@ form {
     border-radius: 5px;
     box-shadow: 4px 4px 4px black;
     opacity: .9;
-    top: 33%;
-    left: 27%;
+    top: 30%;
+    left: 26%;
     z-index: 100;
 }
 
@@ -742,6 +801,11 @@ form {
     text-align: center;
     color: white;
     font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+form {
+    height: 60vh;
+    width: 45%;
 }
 
 input {
