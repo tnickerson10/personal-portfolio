@@ -665,9 +665,9 @@ em {
 
 #hob-card-1-back p, #hob-card-2-back p, #hob-card-3-back p {
     text-align: left;
-    padding-left: 100px;
+    padding-left: 10px;
     padding-right: 10px;
-    line-height: 30px;
+    line-height: 10px;
     font-size: 17px;
 }
 
