@@ -563,7 +563,6 @@ a:hover {
     padding-top: 20px;
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 20px;
-    line-height: 4em;
     color: white;
     text-transform: capitalize;
 }
@@ -668,6 +667,7 @@ em {
     text-align: left;
     padding-left: 10px;
     padding-right: 10px;
+    line-height: 1.2em;
     font-size: 17px;
 }
 
